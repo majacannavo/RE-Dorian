@@ -4,11 +4,17 @@
 Backup of *.doc*
 
 # Ignore contents of derived private folder, with the exception of its readme file
-data/derived/private/**
+data/dorian/derived/private/**
+!readme.md
+
+data/vaccine/derived/private/**
 !readme.md
 
 # Ignore contents of raw private folder, with the exception of its readme file
-data/raw/private/**
+data/dorian/raw/private/**
+!readme.md
+
+data/vaccine/raw/private/**
 !readme.md
 
 # Ignore contents of scratch folder, with the exception of its readme file
